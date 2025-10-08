@@ -55,6 +55,9 @@ The dashboard focuses on the following metrics:
 
 <img width="1779" height="780" alt="Screenshot 2025-10-08 235708" src="https://github.com/user-attachments/assets/be1731c0-c9b5-4456-a0aa-2f6fbaff267c" />
 
+<img width="1779" height="195" alt="Screenshot 2025-10-09 001545" src="https://github.com/user-attachments/assets/a16fb658-c98e-4ca3-a3ed-1c761623146c" />
+
+
 
 🔸North America and Europe contribute the highest share of total revenue, highlighting strong market presence in developed regions.
 
