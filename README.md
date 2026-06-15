@@ -1,94 +1,80 @@
-# Global-E-Commerce-Sales-Performance-Dashboard
+# Global E-Commerce Sales Performance Dashboard
 
-## 🧩 Project Overview
+**Interactive Excel BI dashboard analyzing revenue, profitability, and regional performance across a global e-commerce dataset — built for executive reporting and strategic decision-making.**
 
-This project presents an interactive Excel-based Business Intelligence dashboard designed to analyze and visualize the global sales performance of an e-commerce company. It provides actionable insights into revenue, profitability, customer segments, and regional performance, empowering data-driven business decisions.
+[![Excel](https://img.shields.io/badge/Microsoft-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://microsoft.com/excel)
+[![BI](https://img.shields.io/badge/Type-Business%20Intelligence-0078D4?style=flat-square)]()
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
+---
 
-### 🎯 Objectives
+## Key findings
 
-➤Analyze global e-commerce performance across regions, product categories, and customer segments.
+- **North America and Europe** account for the largest revenue share — strong penetration in developed markets with room to optimize margin, not volume
+- **Electronics and Furniture** lead in both revenue and profitability; lower-margin categories signal pricing or supply chain inefficiencies worth addressing
+- **Corporate customers** carry higher average order values than individual segments — a case for differentiated account strategy
+- **Q4 drives disproportionate sales peaks** — inventory and campaign planning should front-load for holiday-season demand
+- **Several high-volume regions operate at compressed margins** — geographic profitability analysis points to actionable cost or pricing levers
 
-➤Identify key revenue drivers, profit trends, and growth opportunities.
+---
 
-➤Build an interactive and executive-friendly dashboard for management reporting.
+## Dashboard preview
 
-➤Demonstrate strong analytical, visualization, and storytelling skills using Excel.
+![Dashboard Overview](https://github.com/user-attachments/assets/be1731c0-c9b5-4456-a0aa-2f6fbaff267c)
+![KPI Summary](https://github.com/user-attachments/assets/a16fb658-c98e-4ca3-a3ed-1c761623146c)
 
-### ⚙️ Tools & Techniques Used
+---
 
-➤Microsoft Excel (Primary Tool)
+## What the dashboard tracks
 
-➤Data Cleaning & Transformation using filters, text-to-columns, IF statements, etc.
+| KPI | Purpose |
+|---|---|
+| Total revenue | Top-line performance across all regions and segments |
+| Total quantity sold | Volume trends by product and category |
+| Profit margin % | Profitability health — not just revenue |
+| Regional sales distribution | Geographic concentration and expansion signals |
+| Top products & categories | SKU-level performance for inventory prioritization |
+| Customer segment contribution | Corporate vs. individual revenue split |
+| Month-over-month growth | Momentum and seasonality detection |
 
-➤Pivot Tables for aggregation and dynamic summaries
+---
 
-➤Advanced Formulas: INDEX-MATCH, SUMIFS, IFERROR, and date-based calculations
+## How it's built
 
-➤Conditional Formatting for highlighting performance trends
+**Data preparation**
+Raw data cleaned and transformed using Excel filters, text-to-columns, IF statements, and date-based calculations. Inconsistencies resolved before any aggregation.
 
-➤Slicers & Interactive Filters for drill-down analysis
+**Analysis layer**
+Pivot Tables for dynamic aggregation across region, category, segment, and time. Advanced formulas — `INDEX-MATCH`, `SUMIFS`, `IFERROR` — for cross-sheet KPI computation.
 
-➤Custom Charts (Column, Line, Pie, Combo Charts) for KPI visualization
+**Dashboard layer**
+Slicers and interactive filters for executive drill-down. Conditional formatting for instant trend identification. Custom combo, column, line, and pie charts for KPI storytelling.
 
-### 📈 Key Performance Indicators (KPIs)
+---
 
-The dashboard focuses on the following metrics:
+## Tech stack
 
-💰 Total Revenue
+`Microsoft Excel` `Pivot Tables` `INDEX-MATCH` `SUMIFS` `Conditional Formatting` `Slicers` `Custom Charts`
 
-📦 Total Quantity Sold
+---
 
-💹 Profit Margin %
+## Business impact
 
-🌍 Regional Sales Distribution
+The findings directly support three decisions:
 
-🏆 Top-Performing Products & Categories
+1. **Market prioritization** — identify which regions to defend vs. grow vs. fix
+2. **Inventory optimization** — align stock planning with Q4 demand curves and top-category performance
+3. **Margin improvement** — flag high-volume, low-margin regions for pricing or supply chain review
 
-👥 Customer Segment Contribution
+---
 
-⏳ Month-over-Month Sales Growth
+## Roadmap
 
-🔍 Insights & Business Impact
+- [ ] Power Query integration for automated data refresh and transformation
+- [ ] Power BI version for richer interactivity, DAX measures, and scalable distribution
 
-### Key Findings:
+---
 
-<img width="1779" height="780" alt="Screenshot 2025-10-08 235708" src="https://github.com/user-attachments/assets/be1731c0-c9b5-4456-a0aa-2f6fbaff267c" />
+## License
 
-<img width="1779" height="195" alt="Screenshot 2025-10-09 001545" src="https://github.com/user-attachments/assets/a16fb658-c98e-4ca3-a3ed-1c761623146c" />
-
-
-
-🔸North America and Europe contribute the highest share of total revenue, highlighting strong market presence in developed regions.
-
-🔸The Electronics and Furniture categories outperform others in both sales and profitability.
-
-🔸Corporate customers exhibit higher average order values compared to individual customers.
-
-🔸Seasonal trends reveal sales peaks during Q4, indicating strong holiday-season performance.
-
-🔸Certain regions show high sales volume but lower profit margins, suggesting opportunities to optimize pricing or supply chain costs.
-
-#### Business Impact:
-These insights help business leaders prioritize profitable markets, optimize inventory, and strategize regional marketing campaigns to improve overall ROI.
-
-
-### What This Project Demonstrates
-
-🔸Ability to translate raw business data into insights that support strategic decisions.
-
-🔸Strong understanding of sales analytics and performance metrics.
-
-🔸Practical experience in dashboard creation and stakeholder reporting.
-
-🔸Competence in Excel-based analytics workflows — crucial for entry-level Business Analyst roles in global firms.
-
-### 🧠 Future Enhancements
-
-🔹Integrate Power Query for automated data refresh and advanced cleaning.
-
-🔹Develop a Power BI version for richer interactivity and scalability.
-
-### Conclusion
-
-The Global E-Commerce Sales Performance Dashboard demonstrates a data-driven approach to understanding business performance using Excel. It reflects key competencies in analytical thinking, visualization, and business insight generation, aligning strongly with the expectations of Tier 1 organizations hiring for Business Analyst and Data Analyst roles.
+MIT — see [LICENSE](LICENSE) for details.
