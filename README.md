@@ -1,80 +1,140 @@
+<div align="center">
+
 # Global E-Commerce Sales Performance Dashboard
 
-**Interactive Excel BI dashboard analyzing revenue, profitability, and regional performance across a global e-commerce dataset — built for executive reporting and strategic decision-making.**
+### Executive-grade Business Intelligence built entirely in Microsoft Excel —
+### transforming raw transactional data into boardroom-ready strategy.
 
 [![Excel](https://img.shields.io/badge/Microsoft-Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)](https://microsoft.com/excel)
-[![BI](https://img.shields.io/badge/Type-Business%20Intelligence-0078D4?style=flat-square)]()
+[![Type](https://img.shields.io/badge/Type-Business%20Intelligence-0078D4?style=flat-square)]()
+[![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=flat-square)]()
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
----
-
-## Key findings
-
-- **North America and Europe** account for the largest revenue share — strong penetration in developed markets with room to optimize margin, not volume
-- **Electronics and Furniture** lead in both revenue and profitability; lower-margin categories signal pricing or supply chain inefficiencies worth addressing
-- **Corporate customers** carry higher average order values than individual segments — a case for differentiated account strategy
-- **Q4 drives disproportionate sales peaks** — inventory and campaign planning should front-load for holiday-season demand
-- **Several high-volume regions operate at compressed margins** — geographic profitability analysis points to actionable cost or pricing levers
+</div>
 
 ---
 
-## Dashboard preview
+## The Problem This Solves
+
+E-commerce businesses generate enormous volumes of transactional data — but raw data alone drives no decisions. Executives need to know *where* revenue concentrates, *which* categories are eroding margin, and *when* demand spikes so capital can be deployed in advance.
+
+This dashboard was built to answer exactly those questions: turning a multi-regional, multi-segment sales dataset into a single interactive command center that any stakeholder can navigate without SQL, Python, or a BI licence.
+
+---
+
+## Dashboard Preview
 
 ![Dashboard Overview](https://github.com/user-attachments/assets/be1731c0-c9b5-4456-a0aa-2f6fbaff267c)
 ![KPI Summary](https://github.com/user-attachments/assets/a16fb658-c98e-4ca3-a3ed-1c761623146c)
 
 ---
 
-## What the dashboard tracks
+## Key Findings & Business Implications
 
-| KPI | Purpose |
+| Finding | Strategic Implication |
 |---|---|
-| Total revenue | Top-line performance across all regions and segments |
-| Total quantity sold | Volume trends by product and category |
-| Profit margin % | Profitability health — not just revenue |
-| Regional sales distribution | Geographic concentration and expansion signals |
-| Top products & categories | SKU-level performance for inventory prioritization |
-| Customer segment contribution | Corporate vs. individual revenue split |
-| Month-over-month growth | Momentum and seasonality detection |
+| **North America & Europe** dominate revenue share | Defend core markets; optimize margin, not volume |
+| **Electronics & Furniture** lead revenue *and* profitability | Double down on inventory depth and promotional investment |
+| **Corporate customers** carry significantly higher AOV | Justify a dedicated account management and pricing tier |
+| **Q4 drives disproportionate demand** | Front-load inventory procurement and campaign budgets by September |
+| **Several high-volume regions operate at compressed margins** | Trigger immediate pricing review or supplier renegotiation |
+
+These are not observations — they are **prioritized, actionable levers** mapped directly to revenue, margin, and operational efficiency.
 
 ---
 
-## How it's built
+## What the Dashboard Tracks
 
-**Data preparation**
-Raw data cleaned and transformed using Excel filters, text-to-columns, IF statements, and date-based calculations. Inconsistencies resolved before any aggregation.
-
-**Analysis layer**
-Pivot Tables for dynamic aggregation across region, category, segment, and time. Advanced formulas — `INDEX-MATCH`, `SUMIFS`, `IFERROR` — for cross-sheet KPI computation.
-
-**Dashboard layer**
-Slicers and interactive filters for executive drill-down. Conditional formatting for instant trend identification. Custom combo, column, line, and pie charts for KPI storytelling.
-
----
-
-## Tech stack
-
-`Microsoft Excel` `Pivot Tables` `INDEX-MATCH` `SUMIFS` `Conditional Formatting` `Slicers` `Custom Charts`
+| KPI | Why It Matters |
+|---|---|
+| Total Revenue | Top-line health across all markets and segments |
+| Units Sold | Volume trends by product, category, and period |
+| Profit Margin % | Profitability signal — prevents revenue-without-returns growth |
+| Regional Sales Distribution | Identifies concentration risk and expansion white space |
+| Top Products & Categories | Powers SKU-level inventory prioritization |
+| Customer Segment Contribution | Corporate vs. consumer revenue split for go-to-market strategy |
+| Month-over-Month Growth | Momentum tracking and early seasonality detection |
 
 ---
 
-## Business impact
+## How It's Built
 
-The findings directly support three decisions:
+### Data Preparation
+Raw transactional data cleaned and standardised using Excel filters, Text-to-Columns, `IF` logic, and date decomposition. All inconsistencies resolved upstream — before a single aggregation runs — so no error propagates into the analysis layer.
 
-1. **Market prioritization** — identify which regions to defend vs. grow vs. fix
-2. **Inventory optimization** — align stock planning with Q4 demand curves and top-category performance
-3. **Margin improvement** — flag high-volume, low-margin regions for pricing or supply chain review
+### Analysis Layer
+Dynamic `PivotTables` aggregating across region, product category, customer segment, and time. Cross-sheet KPIs computed via `INDEX-MATCH`, `SUMIFS`, and `IFERROR` — resilient to data updates without formula rewrites.
+
+### Dashboard Layer
+Executive-facing interface with native **Slicers** for drill-down by region, segment, or time period. **Conditional formatting** for instant trend identification. Custom **combo, column, line, and donut charts** tuned for KPI storytelling rather than data decoration.
+
+---
+
+## Technical Architecture
+
+```
+Raw Data Sheet
+      │
+      ▼
+Data Cleaning & Transformation (IF, Text-to-Columns, Date Logic)
+      │
+      ▼
+PivotTable Analysis Layer (Region × Category × Segment × Time)
+      │
+      ▼
+Formula Engine (INDEX-MATCH, SUMIFS, IFERROR — cross-sheet)
+      │
+      ▼
+Interactive Dashboard (Slicers, Conditional Formatting, Custom Charts)
+```
+
+**Stack:** `Microsoft Excel` · `PivotTables` · `INDEX-MATCH` · `SUMIFS` · `Conditional Formatting` · `Slicers` · `Custom Charts`
+
+---
+
+## Business Impact
+
+This dashboard directly enables three classes of decisions:
+
+**1. Market Prioritisation**
+Identify which regions to defend (high margin, high volume), grow (high volume, recoverable margin), or fix (high volume, structurally compressed margin) — based on data, not intuition.
+
+**2. Inventory Optimisation**
+Align procurement and stock planning with Q4 demand curves and top-category performance data, reducing both stockouts and overstock carrying costs.
+
+**3. Margin Recovery**
+Flag high-volume, low-margin geographies for targeted pricing review or supply chain renegotiation — turning operational data into a CFO-ready action list.
+
+---
+
+## Skills Demonstrated
+
+This project was designed to reflect the analytical rigour expected in data-driven consulting and business intelligence roles:
+
+- **Data thinking:** structured problem decomposition before touching a single cell
+- **Technical execution:** advanced Excel — not just formulas, but an integrated analytical pipeline
+- **Business translation:** every chart and KPI is framed around a decision, not just a metric
+- **Executive communication:** the dashboard is built for a non-technical audience without dumbing down the analysis
 
 ---
 
 ## Roadmap
 
-- [ ] Power Query integration for automated data refresh and transformation
-- [ ] Power BI version for richer interactivity, DAX measures, and scalable distribution
+- [ ] **Power Query** — automated data refresh and transformation pipeline, eliminating manual cleaning steps
+- [ ] **Power BI version** — DAX measures, row-level security, and scalable enterprise distribution
+- [ ] **Forecasting layer** — trend extrapolation for Q-ahead demand planning
 
 ---
 
-## License
+## About
 
-MIT — see [LICENSE](LICENSE) for details.
+Built as part of a structured analytics and consulting programme, applying real-world BI methodology to a global e-commerce dataset. Designed to reflect the standards expected in data analytics, management consulting, and corporate finance roles.
+
+---
+
+<div align="center">
+
+*If you found this useful, a ⭐ on the repo goes a long way.*
+
+</div>
+
